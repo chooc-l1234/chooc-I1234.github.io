@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Menú Central</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      
+
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .menu-box {
+      background-color: #ffffff;
+      border: 3px solid #000000;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .menu-box a,
+    .menu-box button {
+      display: block;
+      width: 100%;
+      text-align: center;
+      padding: 10px;
+      background-color: #0d6efd;
+      color: white;
+      text-decoration: none;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    .menu-box a:hover,
+    .menu-box button:hover {
+      background-color: #084298;
+    }
+
+    .menu-box button {
+      background-color: #198754;
+    }
+
+    .menu-box button:hover {
+      background-color: #145c32;
+      text-align: center;
+
+    }
+  </style>
+</head>
+<body>
+
+  <div class="menu-box">
+    <a href="vision.html">Visión</a>
+    <a href="mision.html">Misión</a>
+    <a href="acerca de nosotros.html">Acerca de Nosotros</a>
+    <button>ACEPTAR</button>
+  </div>
+
+</body>
+</html>
+
